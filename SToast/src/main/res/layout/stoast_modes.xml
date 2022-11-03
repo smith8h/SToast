@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2196f3"
+    android:clipToOutline="true"
+    android:elevation="5dp"
+    android:gravity="center_vertical"
+    android:id="@+id/main"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    
+    <ImageView
+        android:alpha="0.0"
+        android:id="@+id/img"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_width="35dp"
+        android:padding="1dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ok_img"
+        android:tint="#ffffff"/>
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Title"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:alpha="0.8"
+            android:id="@+id/desc"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="this is description of the toast"
+            android:textColor="#ffffff"
+            android:textSize="13sp"/>
+    </LinearLayout>
+</LinearLayout>
