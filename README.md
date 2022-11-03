@@ -1,4 +1,10 @@
 ## SToast 🌄
+<p align="center">
+<br>
+[![](https://jitpack.io/v/smith8h/SToast.svg)](https://jitpack.io/#smith8h/SToast)
+
+</p>
+<br><br>
 Android custom toast with 2 types of toast:<br>
 - **Adaptive** that changes its theme with device dark/light mode<br>
 - **Mode** with 6 different modes.
