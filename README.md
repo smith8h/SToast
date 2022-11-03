@@ -50,6 +50,7 @@ Available methods:
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
 <br>
+
 > Full Code Example
 ```java
 new SToast.Adaptive(this, SToast.LONG)
@@ -76,6 +77,7 @@ Available methods:
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
 <br>
+
 > Full Code Example
 ```java
 new SToast.Mode(this, SToast.LONG)
