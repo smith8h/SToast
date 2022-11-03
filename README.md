@@ -8,8 +8,8 @@
 <br>
 
 Android custom toast with 2 types of toast:<br>
-- [**Adaptive**](#Adaptive_SToast) that changes its theme with device dark/light mode<br>
-- [**Mode**](#Mode_SToast) with 6 different modes.
+- [**Adaptive**](#Adaptive-SToast) that changes its theme with device dark/light mode<br>
+- [**Mode**](#Mode-SToast) with 6 different modes.
 
 <br>
 
