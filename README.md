@@ -3,8 +3,8 @@
 [![](https://jitpack.io/v/smith8h/SToast.svg)](https://jitpack.io/#smith8h/SToast)
 [![Build Status](https://travis-ci.org/niltonvasques/simplecov-shields-badge.svg?branch=master)](https://travis-ci.org/niltonvasques/simplecov-shields-badge)
 ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
-![minimumSDK](https://img.shields.io/badge/minimumSDK-21-f39f37)
-
+![minimumSDK](https://img.shields.io/badge/minSDK-21-f39f37)
+![minimumSDK](https://img.shields.io/badge/stable_version-2.0-blue)
 <br>
 
 Android custom toast with 2 types of toast:<br>
