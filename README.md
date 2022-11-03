@@ -1,10 +1,9 @@
 ## SToast 🌄
-<p align="center">
-<br>
+
 [![](https://jitpack.io/v/smith8h/SToast.svg)](https://jitpack.io/#smith8h/SToast)
 
-</p>
 <br><br>
+
 Android custom toast with 2 types of toast:<br>
 - **Adaptive** that changes its theme with device dark/light mode<br>
 - **Mode** with 6 different modes.
@@ -34,5 +33,5 @@ Starting with **Adaptive SToast**:
 > It's useful when you use it in direct alerts.
 
 <p align="center">
-<img src="" style="width: 50%;"/>
+<img src="" style="width: 40%;"/>
 </p>
