@@ -7,11 +7,15 @@
 ![minimumSDK](https://img.shields.io/badge/stable_version-2.0-blue)
 <br>
 
-Android custom toast with 2 types of toast:<br>
+Android custom toast with 2 types of toast
+<br/>
+
+**Content**
 - [**Adaptive**](#Adaptive-SToast) that changes its theme with device dark/light mode<br>
 - [**Mode**](#Mode-SToast) with 6 different modes.
-
-<br>
+- [**Usable Resources 📃**](#Usable-Resources-📃)
+- [**Donations ❤**](#Donations-❤)
+<br/>
 
 # Setup 📲
 > **Step 1.** Add the JitPack repository to your build file.</br>
@@ -31,7 +35,7 @@ dependencies {
 }
 ```
 
-<br>
+<br/>
 
 # Documentation 📃
 ### Adaptive SToast
@@ -49,7 +53,7 @@ Available methods:
 - `setTitle("title")` to set the title of toast.
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
-<br>
+<br/>
 
 > Full Code Example
 ```java
@@ -65,7 +69,8 @@ new SToast.Adaptive(this, SToast.LONG)
 
 <p align="center">
 <img src="https://te.legra.ph/file/0b5e005fb10eda4125987.jpg" style="width: 80%;"/>
-<br>This is DONE mode
+<br/>
+This is DONE mode
 </p>
 
 Create new Mode SToast:
@@ -76,7 +81,7 @@ Available methods:
 - `setTitle("title")` to set the title of toast.
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
-<br>
+<br/>
 
 > Full Code Example
 ```java
@@ -88,15 +93,18 @@ new SToast.Mode(this, SToast.LONG)
 ```
 
 # Usable Resources 🗄
-> You can use the drawable resources of this lib in your app!<br>
-> `ok_img`, `true_img`, `false_img`, `warn_img`, `info_img`, `confuse_img`, `heart_img`
+You can use the drawable resources of this lib in your app!<br>
+`ok_img`, `true_img`, `false_img`, `warn_img`, `info_img`, `confuse_img`, `heart_img`
+<br/>
 
 # Donations ❤
-> **These projects needs you!** If you would like to support projects' further development, the creator of all these projects or the continuous maintenance of projects **feel free to donate**. Your donation is highly appreciated. Thank you!
+> If you would like to support this project's further development, the creator of this projects or the continuous maintenance of the project **feel free to donate**.
+Your donation is highly appreciated. Thank you!
 <br/>
 
 You can **choose what you want to donate**, all donations are awesome!</br>
 <br/>
+
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/husseinshakir)
 [![Buy me a coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/HusseinShakir)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/husseinsmith)
