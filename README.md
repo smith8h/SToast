@@ -11,10 +11,12 @@ Android custom toast with 2 types of toast
 <br/>
 
 **Content**
-- [**Adaptive**](#Adaptive-SToast) that changes its theme with device dark/light mode<br>
-- [**Mode**](#Mode-SToast) with 6 different modes.
-- [**Usable Resources 📃**](#Usable-Resources-📃)
-- [**Donations ❤**](#Donations-❤)
+- [**Setup 📲**](#Setup-📲)
+- [**Documentation 📃**](#Documentation-📃)
+  - [**Adaptive**](#Adaptive-SToast) that changes its theme with device dark/light mode<br>
+  - [**Mode**](#Mode-SToast) with 6 different modes.
+- [**Usable Resources 🗄**](#Usable-Resources-🗄)
+- [**Donations :heart:**](#Donations-:heart:)
 <br/>
 
 # Setup 📲
