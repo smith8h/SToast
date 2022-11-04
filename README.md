@@ -51,7 +51,7 @@ Create new Adaptive SToast:
 - `new SToast.Adaptive(context, SToast.SHORT)` the constructor accepts a context and duration.
 You can use `SToast.LONG` for longer duration.
 Available methods:
-- `setIconAndColor(...)` accepting resource drawable/mipmap for icon, and int color (you can use **Color.NAME** or from resources **getColor(R.color.name)**).
+- `setIconAndColor(...)` accepting **resource drawable/mipmap** for icon, and **int color** (you can use **Color.NAME** or from resources **getColor(R.color.name)**).
 - `setTitle("title")` to set the title of toast.
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
