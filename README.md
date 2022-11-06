@@ -79,7 +79,14 @@ Create new Mode SToast:
 - `new SToast.Mode(context, SToast.SHORT)` the constructor accepts a context and duration.
 You can use `SToast.LONG` for longer duration.
 Available methods:
-- `setMode(...)` to set the mode you can use **SToast.MODE_OK** or **MODE_DONE, MODE_WARN, MODE_ERROR, MODE_CONFUSE, MODE_INFO, MODE_HEART**).
+- `setMode(...)` to set the mode you can use
+  - **SToast.MODE_OK**
+  - **SToast.MODE_DONE**
+  - **SToast.MODE_WARN**
+  - **SToast.MODE_ERROR**
+  - **SToast.MODE_CONFUSE**
+  - **SToast.MODE_INFO**
+  - **SToast.MODE_HEART**
 - `setTitle("title")` to set the title of toast.
 - `setText("some text")` to set the message for the user.
 - `show()` to show the SToast.
