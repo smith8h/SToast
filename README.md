@@ -5,6 +5,7 @@
 ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
 ![minimumSDK](https://img.shields.io/badge/minSDK-21-f39f37)
 ![stable version](https://img.shields.io/badge/stable_version-2.0-blue)
+![Repository size](https://img.shields.io/github/repo-size/smith8h/stoast)
 <br>
 
 Android custom toast with 2 types of toast
