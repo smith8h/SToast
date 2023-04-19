@@ -20,7 +20,7 @@ public class AdaptiveSToast {
     private Context context;
     private String titleTxt, textTxt;
     private int color = 0xFFFF5252;
-    private int icon = R.drawable.heart_img;
+    private int icon = R.drawable.default_img;
     private int duration = LENGTH_SHORT;
     
     public static AdaptiveSToast with(Context ctx) {
@@ -40,19 +40,19 @@ public class AdaptiveSToast {
     }
 
     public AdaptiveSToast text(String text) {
-        text = text;
+        this.textTxt = text;
         return this;
     }
 
     public AdaptiveSToast icon(int icon, int iconColor) {
-        icon = icon;
-        color = iconColor;
+        this.icon = icon;
+        this.color = iconColor;
         return this;
     }
     
     public AdaptiveSToast icon(int icon, String iconColor) {
-        icon = icon;
-        color = Color.parseColor(iconColor);
+        this.icon = icon;
+        this.color = Color.parseColor(iconColor);
         return this;
     }
 

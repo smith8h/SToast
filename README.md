@@ -34,7 +34,7 @@ allprojects {
 > **Step 2.** Add the dependency:
 ```gradle
 dependencies {
-    implementation 'com.github.smith8h:SToast:2.0'
+    implementation 'com.github.smith8h:SToast:2.5'
 }
 ```
 
@@ -48,22 +48,26 @@ dependencies {
 <img src="https://te.legra.ph/file/3383a5c2ea7b770e257f1.jpg" style="width: 80%;"/>
 </p>
 
-Create new Adaptive SToast:
-- `new SToast.Adaptive(context, SToast.SHORT)` the constructor accepts a context and duration.
-You can use `SToast.LONG` for longer duration.
-Available methods:
-- `setIconAndColor(...)` accepting **resource drawable/mipmap** for icon, and **int color** (you can use **Color.NAME** or from resources **getColor(R.color.name)**).
-- `setTitle("title")` to set the title of toast.
-- `setText("some text")` to set the message for the user.
-- `show()` to show the SToast.
-<br/>
+Create Adaptive SToast:
+- `AdaptiveSToast.with(context)` pass a context.
+- `.duration(AdaptiveSToast.LENGTH_LONG)` or `LENGTH_SHORT` (Optional | Default is short).
+- `.icon(iconIntRes, colorInt)` **int resource drawable** for icon, and **int|String color** for icon color (Optional).
+- `.title("title")` to set the title of toast.
+- `.text("some text")` to set the message for the user.
+- `.show()` to show the SToast.
 
-> Full Code Example
+Final code:
 ```java
-new SToast.Adaptive(this, SToast.LONG)
-    .setIconAndColor(R.drawable.ok_img)
-    .setTitle("All Ok!")
-    .setText("Scanning process completed.")
+AdaptiveSToast.with(this)
+    .title("title")
+    .text("text")
+    
+    /* for customization
+    .icon(R.drawable.icon, getColor(R.color.color)) // or ↓
+    OR .icon(R.drawable.icon, "hex color")
+    .duration(AdaptiveSToast.LENGTH_LONG)
+    */
+    
     .show();
 ```
 
@@ -77,33 +81,27 @@ This is DONE mode
 </p>
 
 Create new Mode SToast:
-- `new SToast.Mode(context, SToast.SHORT)` the constructor accepts a context and duration.
-You can use `SToast.LONG` for longer duration.
-Available methods:
-- `setMode(...)` to set the mode you can use
-  - **SToast.MODE_OK**
-  - **SToast.MODE_DONE**
-  - **SToast.MODE_WARN**
-  - **SToast.MODE_ERROR**
-  - **SToast.MODE_CONFUSE**
-  - **SToast.MODE_INFO**
-  - **SToast.MODE_HEART**
-- `setTitle("title")` to set the title of toast.
-- `setText("some text")` to set the message for the user.
+- `ModeSToast.with(context)` pass a context.
+- `.mode(...)` to set the mode you can use **ModeSToast.MODE_OK**, **MODE_DONE**, **MODE_WARN**,- **MODE_ERROR**, **MODE_CONFUSE**, **MODE_INFO**, **MODE_HEART**
+- `.duration(ModeSToast.LENGTH_LONG)` or `LENGTH_SHORT` (Optional | Default is short).
+- `.title("title")` to set the title of toast.
+- `.text("some text")` to set the message for the user.
 - `show()` to show the SToast.
+
 <br/>
 
-> Full Code Example
+Final Code:
 ```java
-new SToast.Mode(this, SToast.LONG)
-    .setMode(SToast.MODE_HEART)
-    .setTitle("Big Love!")
-    .setText("Thanks for your donation.")
+ModeSToast(this)
+    .mode(ModeSToast.MODE_HEART)
+    .title("Big Love!")
+    .text("Thanks for your donation.")
     .show();
 ```
 
 # Usable Resources 🗄
-You can use the drawable resources of this lib in your app!<br>
+You can use the drawables of this lib in your app!<br>
+import smith.lib.alerts.toast.R and use them 
 `ok_img`, `true_img`, `false_img`, `warn_img`, `info_img`, `confuse_img`, `heart_img`
 <br/>
 

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void show(View v) {
         AdaptiveSToast.with(this)
                       .duration(AdaptiveSToast.LENGTH_SHORT)
-                      .icon(R.drawable.heart_img, getColor(R.color.acc))
+                      .icon(smith.lib.alerts.toast.R.drawable.heart_img, getColor(R.color.acc))
                       .title("Big Love!")
                       .text("This is Night Mode Adaptive SToast.")
                       .show();

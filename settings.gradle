@@ -18,6 +18,7 @@ dependencyResolutionManagement {
         maven { url 'https://repo.maven.apache.org/maven2' }
         maven { url 'https://jcenter.bintray.com' }
         maven { url 'https://dl.google.com' }
+        maven { url "https://s01.oss.sonatype.org/content/repositories/snapshots/" }
     }
 }
 
